@@ -76,7 +76,7 @@ A partir das tabelas <b>kronos_stage.venda_loja_produto e kronos.custo</b> serã
 
 * SQL 
 * Pentaho
-* Power BI: [App Powe BI](https://cutt.ly/vendas-power-bi-dashboard)
+* Power BI: [App Power BI](https://cutt.ly/vendas-power-bi-dashboard)
 * Python
 * Análise de Dados
 * Machine Learning: [Notebook](https://cutt.ly/vendas-power-bi-dashboard)
