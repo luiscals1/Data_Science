@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/static/v1?label=Status&message=Concluido&color=green&style=for-the-badge"/>
 </p>
 
-### Este projeto foi desenvolvido durante a Maratona de Dados Falqon, foi efetadas etapas de um projeto real de Data Science, usando dados de uma rede de lojas durante o ETL, e dados do mercado de ações do Google para realização de predição dos valores dessas ações.
+### Este projeto foi desenvolvido durante a Maratona de Dados Falqon, foi efetuadas etapas de um projeto real de Data Science, usando dados de uma rede de lojas durante o ETL, e dados do mercado de ações do Google para realização de predição dos valores dessas ações.
 
 ## ETL
 Após definição dos indicadores e dimensões, deve-se mapear quais serão as fontes de dados e tratamentos a serem realizados para implementação do processo de ETL.
@@ -58,7 +58,7 @@ A partir das tabelas <b>kronos_stage.venda_loja_produto e kronos.custo</b> serã
     <img src="https://github.com/luiscals1/Data_Science/blob/main/Maratona-de-Dados-Falqon/documention/dashboard.jpg"/>
   </p>
  
-#### Já para a predição dos valores dessas ações do Google, são obitidos os valores da imagem abaixo:
+#### Já para a predição dos valores dessas ações do Google, são obtidos os valores da imagem abaixo:
 
 <p align="center">
     <img src="https://github.com/luiscals1/Data_Science/blob/main/Maratona-de-Dados-Falqon/documention/prediction.jpg"/>
