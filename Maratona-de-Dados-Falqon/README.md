@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=Status&message=Concluído&color=green&style=for-the-badge"/>
+<img src="https://img.shields.io/static/v1?label=Status&message=Concluido&color=green&style=for-the-badge"/>
 </p>
 
 ### Este projeto foi desenvolvido durante a Maratona de Dados Falqon, foi efetadas etapas de um projeto real de Data Science, usando dados de uma rede de lojas durante o ETL, e dados do mercado de ações do Google para realização de predição dos valores dessas ações.
