@@ -1,5 +1,7 @@
 # Human Resources Analytics
-
+<p align="center">
+  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/humanResourceAnalytics.jpeg">
+</p>
 
 Neste projeto cobrindo todas as etapas de um projeto real de Data Science pude resolver o problema de como utilizar dados para responder a questões importantes para permitir que uma empresa tenha conhecimento sobre:
 
