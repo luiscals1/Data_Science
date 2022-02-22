@@ -12,6 +12,12 @@ Neste projeto cobrindo todas as etapas de um projeto real de Data Science pude r
 
 E por fim disponibilizar recursos para que a empresa consiga realizar a predição para verificar se um colaborador vai ou não deixar a empresa com base em atributos como comportamento e carga de trabalho, nível de satisfação com a empresa e resultados de performance.
 
+# Arquitetura da Solução
+
+<p align="center">
+  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/solution_overview.png"/>
+</p>
+
 Para resolver esse problema foi construído uma solução completa para armazenamento, gestão e automatização de fluxos de dados utilizando tecnologias como Apache Airflow, Docker e Minio além de explorar uma suíte poderosa de tecnologias para trabalhar com Análise de Dados e Machine Learning que são: Pandas, Scikit-learn, Pycaret, SweetViz, Streamlit.
 
 Depois da infraestrutura devidamente criada e configurada, levando em consideração o desafio proposto foram criados e modelados atributos relevantes para análise utilizando fontes de dados diversas como arquivos em formato xlsx, json e dados no Sistemas de Gerenciamento de Banco de Dados MySQL.
