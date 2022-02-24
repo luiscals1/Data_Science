@@ -1,6 +1,7 @@
 # Human Resources Analytics
+
 <p align="center">
-  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/humanResourceAnalytics.jpeg">
+  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/humanResourceAnalytics.jpeg" width="1000" height="400"/>
 </p>
 
 Neste projeto cobrindo todas as etapas de um projeto real de Data Science pude resolver o problema de como utilizar dados para responder a questões importantes para permitir que uma empresa tenha conhecimento sobre:
@@ -10,6 +11,12 @@ Neste projeto cobrindo todas as etapas de um projeto real de Data Science pude r
 * Como antecipar e saber se um determinado colaborador vai sair da empresa?
 
 E por fim disponibilizar recursos para que a empresa consiga realizar a predição para verificar se um colaborador vai ou não deixar a empresa com base em atributos como comportamento e carga de trabalho, nível de satisfação com a empresa e resultados de performance.
+
+# Arquitetura da Solução
+
+<p align="center">
+  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/solution_overview.png"/>
+</p>
 
 Para resolver esse problema foi construído uma solução completa para armazenamento, gestão e automatização de fluxos de dados utilizando tecnologias como Apache Airflow, Docker e Minio além de explorar uma suíte poderosa de tecnologias para trabalhar com Análise de Dados e Machine Learning que são: Pandas, Scikit-learn, Pycaret, SweetViz, Streamlit.
 
@@ -28,13 +35,17 @@ Na etapa de Análise Exploratória de Dados foram descobertos os vários insight
 
 Através da análise foi possível desenvolver 3 grupos distintos para agrupar colaboradores que deixaram a empresa por comportamentos similares que são:
 
-#### Grupo 1 (Empregados insatisfeitos e trabalhadores): A satisfação foi inferior a 20 e as avaliações foram superiores a 75.
+<p align="center">
+  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/clusters.png"/>
+</p>
+
+#### Grupo 1 (Azul) - (Empregados insatisfeitos e trabalhadores): A satisfação foi inferior a 20 e as avaliações foram superiores a 75.
 Que corresponde ao grupo de funcionários que deixaram a empresa e eram bons trabalhadores, mas se sentiam péssimos no trabalho.
 
-#### Grupo 2 (Empregados ruins e insatisfeitos): Satisfação entre 35 à 50 e as suas avaliações abaixo de ~ 58.
+#### Grupo 2 (Vermelho) - (Empregados ruins e insatisfeitos): Satisfação entre 35 à 50 e as suas avaliações abaixo de ~ 58.
 Corresponde aos empregados que foram mal avaliados e se sentiram mal no trabalho.
 
-#### Grupo 3 (Empregados satisfeitos e trabalhadores): Representa os empregados ideais, que gostam do seu trabalho e são bem avaliados por seu desempenho.
+#### Grupo 3 (Verde) - (Empregados satisfeitos e trabalhadores): Representa os empregados ideais, que gostam do seu trabalho e são bem avaliados por seu desempenho.
 Este grupo pode indicar os empregados que deixaram a empresa porque encontraram outra oportunidade de trabalho.
 
 Para a estimativa com o objetivo de predizer se um empregado vai deixar a empresa foi implementado um modelo utilizando o algoritmo Gradient Boosting Classifier que atingiu uma performance de AUC em 0.80. 
