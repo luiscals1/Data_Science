@@ -35,13 +35,17 @@ Na etapa de Análise Exploratória de Dados foram descobertos os vários insight
 
 Através da análise foi possível desenvolver 3 grupos distintos para agrupar colaboradores que deixaram a empresa por comportamentos similares que são:
 
-#### Grupo 1 (Empregados insatisfeitos e trabalhadores): A satisfação foi inferior a 20 e as avaliações foram superiores a 75.
+<p align="center">
+  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/clusters.png"/>
+</p>
+
+#### Grupo 1 (Azul) - (Empregados insatisfeitos e trabalhadores): A satisfação foi inferior a 20 e as avaliações foram superiores a 75.
 Que corresponde ao grupo de funcionários que deixaram a empresa e eram bons trabalhadores, mas se sentiam péssimos no trabalho.
 
-#### Grupo 2 (Empregados ruins e insatisfeitos): Satisfação entre 35 à 50 e as suas avaliações abaixo de ~ 58.
+#### Grupo 2 (Vermelho) - (Empregados ruins e insatisfeitos): Satisfação entre 35 à 50 e as suas avaliações abaixo de ~ 58.
 Corresponde aos empregados que foram mal avaliados e se sentiram mal no trabalho.
 
-#### Grupo 3 (Empregados satisfeitos e trabalhadores): Representa os empregados ideais, que gostam do seu trabalho e são bem avaliados por seu desempenho.
+#### Grupo 3 (Verde) - (Empregados satisfeitos e trabalhadores): Representa os empregados ideais, que gostam do seu trabalho e são bem avaliados por seu desempenho.
 Este grupo pode indicar os empregados que deixaram a empresa porque encontraram outra oportunidade de trabalho.
 
 Para a estimativa com o objetivo de predizer se um empregado vai deixar a empresa foi implementado um modelo utilizando o algoritmo Gradient Boosting Classifier que atingiu uma performance de AUC em 0.80. 
