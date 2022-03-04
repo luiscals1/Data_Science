@@ -36,7 +36,7 @@ Na etapa de Análise Exploratória de Dados foram descobertos os vários insight
 Através da análise foi possível desenvolver 3 grupos distintos para agrupar colaboradores que deixaram a empresa por comportamentos similares que são:
 
 <p align="center">
-  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/clusters.png"/>
+  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/clusters.jpg"/>
 </p>
 
 #### Grupo 1 (Azul) - (Empregados insatisfeitos e trabalhadores): A satisfação foi inferior a 20 e as avaliações foram superiores a 75.
@@ -75,3 +75,7 @@ Como um processo de melhoria contínua podemos desenvolver uma automação para 
 * Scikit-learn
 * Pycaret
 * Matplotlib
+
+<p align="center">
+  <img src="https://github.com/luiscals1/Data_Science/blob/main/human-resources-analytics/images/technologies.png" width="700" height="300"/>
+</p>
